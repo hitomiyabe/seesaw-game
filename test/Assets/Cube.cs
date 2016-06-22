@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class Cube : MonoBehaviour {
+	
 
 	int flag = 0;
 
 	// Use this for initialization
-	void Start () {
-	
-	}
+
+
 	
 	// Update is called once per frame
 
