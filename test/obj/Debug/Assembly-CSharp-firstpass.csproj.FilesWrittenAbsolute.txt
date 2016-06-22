@@ -1,0 +1,17 @@
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/hy1107/Desktop/test/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/hy1107/Desktop/test/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/hy1107/Desktop/test/Temp/bin/Debug/UnityEngine.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/UnityEditor.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Mono.Cecil.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Unity.DataContract.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/hy1107/Desktop/test/Temp/bin/Debug/Mono.Cecil.Mdb.dll
