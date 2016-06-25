@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Ball : MonoBehaviour {
 	int flag = 0;
@@ -25,15 +26,18 @@ public class Ball : MonoBehaviour {
 		}
 	}
 	void OnCollisionEnter(Collision other){
-		if (other.gameObject.tag == "Cube"){
+		if (other.gameObject.tag == "Cube") {
 			//GetComponent<ParticleSystem> ();
-			Instantiate(particle, transform.position, Quaternion.identity);
-		
+			Instantiate (particle, transform.position, Quaternion.identity);
+		}
 		if (flag == 1) {
 				if (other.gameObject.name == "Enemy") {
 					Destroy (other.gameObject);
-				}
+				
 			}
 	}
+		else if(other.gameObject.name =="Enemy"){
+			SceneManager.LoadScene ("GameOver");
   }
  }
+}
