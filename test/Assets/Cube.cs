@@ -24,8 +24,8 @@ public class Cube : MonoBehaviour {
 		}
 	}
 	void OnCollisionEnter(Collision other){
-		if (other.gameObject.name == "Sphere"){
-			flag = 1;
+		if (other.gameObject.name == "Player"){
+			flag = 1; 
 	    }
 	}
 }

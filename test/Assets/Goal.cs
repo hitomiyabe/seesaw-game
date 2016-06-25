@@ -14,7 +14,7 @@ public class Goal : MonoBehaviour {
 	
 	}
 	void OnTriggerEnter(Collider other){
-		if (other.gameObject.name == "Sphere") {
+		if (other.gameObject.name == "Player") {
 			SceneManager.LoadScene ("Goal");
 		}
 	}
