@@ -15,7 +15,7 @@ public class GameOver : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.name == "Player") {
-			SceneManager.LoadScene ("GameOver");
-		}
+		SceneManager.LoadScene ("GameOver");
 	}
+ }
 }

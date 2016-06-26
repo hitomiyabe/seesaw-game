@@ -10,10 +10,10 @@ public class Ball : MonoBehaviour {
 	public GameObject particle;
 	// Use this for initialization
 	void Start () {
-			rb = GetComponent<Rigidbody> ();
+		rb = GetComponent<Rigidbody> ();
 		Screen.lockCursor = true;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey (KeyCode.Space)) {
@@ -24,6 +24,7 @@ public class Ball : MonoBehaviour {
 			GetComponent<Rigidbody> ().AddForce (0, -100, 0);
 			flag = 1;
 		}
+
 	}
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Cube") {
@@ -31,13 +32,12 @@ public class Ball : MonoBehaviour {
 			Instantiate (particle, transform.position, Quaternion.identity);
 		}
 		if (flag == 1) {
-				if (other.gameObject.name == "Enemy") {
-					Destroy (other.gameObject);
-				
+			if (other.gameObject.name == "Enemy") {
+				Destroy (other.gameObject);
+
 			}
-	}
-		else if(other.gameObject.name =="Enemy"){
+		}else if(other.gameObject.name =="Enemy"){
 			SceneManager.LoadScene ("GameOver");
-  }
- }
+		}
+	}
 }
