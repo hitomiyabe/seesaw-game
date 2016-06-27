@@ -88,6 +88,7 @@
 'Assets/GameOver2.cs'
 'Assets/Goal.cs'
 'Assets/Goal2.cs'
+'Assets/Goal3.cs'
 'Assets/PB_Spider/Textures/Ball2.cs'
 'Assets/Particle.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
