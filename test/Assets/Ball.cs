@@ -32,11 +32,11 @@ public class Ball : MonoBehaviour {
 			Instantiate (particle, transform.position, Quaternion.identity);
 		}
 		if (flag == 1) {
-			if (other.gameObject.name == "Enemy") {
+			if (other.gameObject.tag == "Enemy") {
 				Destroy (other.gameObject);
 
 			}
-		}else if(other.gameObject.name =="Enemy"){
+		}else if(other.gameObject.tag =="Enemy"){
 			SceneManager.LoadScene ("GameOver");
 		}
 	}
