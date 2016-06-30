@@ -24,8 +24,11 @@ public class Ball4 : MonoBehaviour {
 			GetComponent<Rigidbody> ().AddForce (0, -100, 0);
 			flag = 1;
 			Debug.Log ("rigidbody");
-		}
+		} else if (Input.GetKeyUp (KeyCode.DownArrow)) {
+			GetComponent <Rigidbody> ().AddForce (0, -10, 0);
+			flag = 0;
 
+		}
 	}
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Cube") {

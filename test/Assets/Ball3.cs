@@ -23,8 +23,11 @@ public class Ball3 : MonoBehaviour {
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			GetComponent<Rigidbody> ().AddForce (0, -100, 0);
 			flag = 1;
-		}
+		} else if (Input.GetKeyUp (KeyCode.DownArrow)) {
+			GetComponent <Rigidbody> ().AddForce (0, -10, 0);
+			flag = 0;
 
+		}
 	}
 	void OnCollisionEnter(Collision other){
 		if (other.gameObject.tag == "Cube") {
